@@ -21,6 +21,9 @@ int main(){
 	
 	RetiraFila(minhafilinha);
 	ImprimeFila(minhafilinha);
+
+	InsereFila(minhafilinha, 'a');
+	ImprimeFila(minhafilinha);
 	
 	LiberaFila(minhafilinha);
 }
